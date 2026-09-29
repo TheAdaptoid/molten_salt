@@ -7,7 +7,7 @@ from pandas.testing import assert_frame_equal
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTEBOOK_PATH = ROOT / "src" / "molten_salt" / "data_cleaning.ipynb"
+NOTEBOOK_PATH = ROOT / "notebooks" / "data_cleaning.ipynb"
 CSV_PATH = ROOT / "data" / "processed" / "corrosion_data_clean.csv"
 PARQUET_PATH = ROOT / "data" / "processed" / "corrosion_data_clean.parquet"
 
